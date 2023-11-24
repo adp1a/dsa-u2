@@ -1,0 +1,21 @@
+1. V modulu SeznamInt_1 (projektu App_Pole1D) 
+a) Doplòte implementaci metody .Copy, která má za úkol vytvoøit kopii pole hodnot a vrátit vytvoøenou kopii návratovou hodnotou. Otestujte metody na klíèových pøípadech.
+b) Metoda .Add nyní kontroluje zaplnìní pole a neumožní vložit další hodnotu, pokud je pole naplnìné. Doplòte definici metody realokace pro realokaci pole. Upravte (Rozšiøte) metodu .Add tak, aby pøi naplnìném poli a pokusu o vložení další hodnoty se stávající pole realokovalo.
+
+Otestujte metody na klíèových pøípadech, v App_Pole1D.cpp. Odevzdejte soubory projektu: SeznamInt_1.cpp, SeznamInt_1.h, App_Pole1D.cpp. 
+
+2. V modulu SeznamInt_2 (projektu App_Pole1D)
+Upravte tøídu SeznamInt_2 tak, aby pracovala s pole ukazatelù na hodnotu. Rozhraní objektu zùstate nezmìnìné - pøedává se hodnota, ale ta se zapíše do dynamicky alokovaného místa. Hodnota NULL prvku bude znamenat, že na dané pozici není hodnota zapsána.
+Co se musí provést pøi odstranìní hodnoty? Proveïte. 
+
+Otestujte funkènost tøídy, v App_Pole1D.cpp. Odevzdejte soubory projektu SeznamInt_2.h, SeznamInt_2.cpp, sdílený soubor App_Pole1D.cpp s pøedcházejícím úkolem. 
+--------------------
+Požadavek na odevzdání:
+
+Odevzdejte v zip-souboru složku Ukol-02 obsahující
+- zdrojové kódy (definice) implementovaných metod a zdrojové kódy ovìøení metod, pøepracovanou tøídu SeznamInt_2 uveïte pøehlednì v textovém dokumentu (word), 
+pøiložte soubory tj:
+- soubory SeznamInt_1.cpp, SeznamInt_1.h, SeznamInt_2.h, SeznamInt_2.cpp, App_Pole1D.cpp
+- word-document
+
+Zkomprimováno do Ukol-02.zip.
